@@ -21,7 +21,7 @@ countries <- round(Nrcountries, digits = -1)
 Experimental results, last updated on `r format(Sys.time(), '%d %B, %Y')`
 
 
-This document provides a real-time glance at the initial results from the new OECD Science Barometer 2020. This “flash” or  “pulse” survey was designed and first launched by the  <a href="https://www.oecd.org/sti/">OECD Directorate for Science, Technology and Innovation</a> on an experimental basis in mid-April 2020. Its objective is to provide a timely picture – i.e. a pulse measure – of the state of science amidst the COVID-19 crisis and report on society's perceptions about its role and future outlook. Scientific research and the use of scientific evidence are key aspects of the <a href="http://www.oecd.org/coronavirus/en/">global and OECD effort</a> against the pandemic and its economic and social repercussions. This survey complements the <a href="https://stip.oecd.org/Covid.html">STIP-COVID survey on policy responses to the crisis</a>. 
+This document provides a real-time glance at the initial results from the new OECD Science Flash Survey 2020. This “flash” or  “pulse” survey was designed and first launched by the  <a href="https://www.oecd.org/sti/">OECD Directorate for Science, Technology and Innovation</a> on an experimental basis in mid-April 2020. Its objective is to provide a timely picture – i.e. a pulse measure – of the state of science amidst the COVID-19 crisis and report on society's perceptions about its role and future outlook. Scientific research and the use of scientific evidence are key aspects of the <a href="http://www.oecd.org/coronavirus/en/">global and OECD effort</a> against the pandemic and its economic and social repercussions. This survey complements the <a href="https://stip.oecd.org/Covid.html">STIP-COVID survey on policy responses to the crisis</a>. 
 
 ## **Methodology – an experimental OECD study** 
 
@@ -49,6 +49,11 @@ plot(Q9)
 ```
 
 The responses collected thus far are overall positive about the general prospects for the status of science after the crisis. Respondents expect science to see its reputation strengthening and foresee a greater use and integration of different strands of scientific expertise in policy advice as well as stronger collaboration and exchange of scientific information. However, respondents are highly uncertain about the overall resources that will be available for scientific research after the COVID-19 pandemic. 
+
+```{r plot_corecharts9,  fig.height = 7, fig.width = 9}
+plot(Q9_g)
+plot(Q9_rp)
+```
 
 ## **Next steps for the Science-COVID flash survey**
 
