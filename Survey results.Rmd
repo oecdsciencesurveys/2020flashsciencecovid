@@ -7,6 +7,12 @@ knit: (function(input_file, encoding) {
  output_file=file.path(dirname(input_file), out_dir, 'index.html'))})
 output: html_document
 ---
+```{r, echo=FALSE}
+htmltools::img(src = knitr::image_uri("V:/Bello_M/BACKUP/Science Barometer/Codes/OECD logo trasparent.png"), 
+               alt = 'logo', 
+               style = 'position:absolute; top:0; left:0; padding:2px; width: 210px; height: 128px')
+```
+
 ## OECD Science Flash Survey 2020
 
 ```{r setup,warning=FALSE, message=FALSE, echo=FALSE}
