@@ -130,6 +130,7 @@ plot(Q7rp)
 
 # <a href="https://survey.oecd.org/index.php?r=survey/index&sid=176928&lang=en">Participate in the survey</a>
 
-Contact: <a href="mailto:issa@oecd.org?subject=Hyperlinks">issa@oecd.org</a>
+
+<a href="mailto:issa@oecd.org?subject=Hyperlinks">Contact us</a>
 
 <a href="http://www.oecd.org/termsandconditions/">Click here to access the OECD Terms and Conditions</a>
