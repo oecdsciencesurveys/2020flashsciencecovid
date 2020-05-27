@@ -1,5 +1,7 @@
 ---
-title: "Science in the face of the COVID-19 crisis"
+title: |
+  ![](V:/Bello_M/BACKUP/Science Barometer/Codes/OECD logo trasparent.png){width=3in}  
+  Science in the face of the COVID-19 crisis
 knit: (function(input_file, encoding) {
   out_dir <- 'docs';
   rmarkdown::render(input_file,
@@ -125,10 +127,8 @@ plot(Q7rp)
 ```
 
 
+# <a href="https://survey.oecd.org/index.php?r=survey/index&sid=176928&lang=en">Participate in the survey</a>
+
 Contact: <a href="mailto:issa@oecd.org?subject=Hyperlinks">issa@oecd.org</a>
 
-
-Survey: https://survey.oecd.org/index.php?r=survey/index&sid=176928&lang=en.
-
- 
 <a href="http://www.oecd.org/termsandconditions/">Click here to access the OECD Terms and Conditions</a>
