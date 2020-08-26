@@ -1,6 +1,6 @@
 ---
 title: |
-  ![](V:/Bello_M/BACKUP/Science Barometer/Codes/OECDwithIDBlogo.JPG){width=8in}  
+  ![](V:/Bello_M/BACKUP/Science Barometer/Codes/OECD logo trasparent.png){width=3in}  
   
   Science in the face of the COVID-19 crisis
 knit: (function(input_file, encoding) {
