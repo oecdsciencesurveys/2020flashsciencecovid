@@ -34,7 +34,7 @@ Given its focus on getting a pulse on the situation and outlook, the survey desi
 
 ## **Highlights**
 
-As of `r format(Sys.time(), '%d %B, %Y')`, over `r responses` responses from nearly `r countries` countries have been collected. 65% of responses correspond to individuals that identify themselves as scientists, with the rest comprising science policy advisors (15%), professionals involved in science (10%), individuals carrying out science-related administrative work (5%), and science communicators (5%). Over 70% of responses indicate a shift to home working. Nearly 20% report a shift of the orientation of their work towards COVID-19-related issues. Nearly 20% of responses from scientists reported a reduction in the intensity of their work, compared to about 15% reporting an increase in intensity. 
+As of `r format(Sys.time(), '%d %B, %Y')`, over `r responses` responses from nearly `r countries` countries have been collected. 45% of responses correspond to individuals that identify themselves as scientists, with the rest comprising science policy advisors (20%), professionals involved in science (15%),  science communicators (10%) and individuals carrying out science-related administrative work (10%). 70% of responses indicate a shift to home working. Nearly 20% report a shift of the orientation of their work towards COVID-19-related issues.15% of responses from scientists reported a reduction in the intensity of their work, compared to about 20% reporting an increase in intensity. 
 
 # **Impact of the COVID-19 crisis on scientific research**
 
@@ -72,7 +72,7 @@ For further information, please contact: <a href="mailto:issa@oecd.org?subject=H
 
 # *Respondent profile*
 
-Europe is the most represented geographical region in this study (60% of respondents are based in a European country) followed by North and South America (25%), Asia and Oceania (14%), and Africa (1%). The majority of respondents are aged between 35 and 55 years old. Men slightly outnumber women in terms of participation.
+North and South America is the most represented geographical region in this study (60% of respondents) followed by Europe (25%), Asia and Oceania (5%), and Africa (1%). The majority of respondents are aged between 35 and 55 years old. Men slightly outnumber women in terms of participation.
 
 ```{r plot_respcharts1,  fig.height = 5, fig.width = 6}
 plot(Q11a_gr)
