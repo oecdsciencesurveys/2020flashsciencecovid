@@ -72,7 +72,7 @@ For further information, please contact: <a href="mailto:issa@oecd.org?subject=H
 
 # *Respondent profile*
 
-North and South America is the most represented geographical region in this study (60% of respondents) followed by Europe (25%), Asia and Oceania (5%), and Africa (1%). The majority of respondents are aged between 35 and 55 years old. Men slightly outnumber women in terms of participation.
+North and South America is the most represented geographical region in this study (64% of respondents) followed by Europe (28%), Asia and Oceania (7%), and Africa (1%). The majority of respondents are aged between 35 and 55 years old. Men slightly outnumber women in terms of participation.
 
 ```{r plot_respcharts1,  fig.height = 5, fig.width = 6}
 plot(Q11a_gr)
