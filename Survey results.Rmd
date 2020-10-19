@@ -8,7 +8,7 @@ knit: (function(input_file, encoding) {
   rmarkdown::render(input_file,
  encoding=encoding,
  output_file=file.path(dirname(input_file), out_dir, 'index.html'))})
-output: html_document
+output: pdf_document
 ---
 
 ## OECD Science Flash Survey 2020
