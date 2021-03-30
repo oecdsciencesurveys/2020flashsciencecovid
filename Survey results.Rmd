@@ -15,7 +15,7 @@ output: html_document
 
 ```{r setup,warning=FALSE, message=FALSE, echo=FALSE}
 knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE, cache=FALSE)
-setwd("V:/EAS_ISSA/BACKUP/Science Barometer/Codes")
+setwd("V:/EAS_ISSA/BACKUP/Science Barometer/Codes/Core")
 source("Data processing.R")
 responses <- round(Q1Nr, digits = -2)
 countries <- round(Nrcountries, digits = -1)
